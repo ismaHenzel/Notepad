@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&family=Indie+Flower&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+form{
+    width: 96%;
+    height: 95%;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.932);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input_area{ 
+    width: 96%;
+    height: 80%;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.input_area textarea{
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    height: 80%;
+    background-color: #f2eecb ;
+    line-height: 30px;
+    font-size: 22px;
+}
+.input_area input{
+    width: 100%;
+    font-family: 'Courier Prime', monospace;
+    border: rgba(245, 237, 193, 0.753) 1px solid;
+    background-color: #f2eecb ;
+    height: 45px;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    align-items: flex-end;
+}
+
+#buttonDel{
+    width: 40;
+    height: 40;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+#buttonOk{
+    width: 40;
+    height: 40;
+    background-size: cover;
+}
+

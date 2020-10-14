@@ -1,0 +1,19 @@
+{
+  "name": "notepadElectron",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ./src/app.js"
+  },
+  "dependencies": {
+    "electron-packager": "^15.1.0",
+    "fs": "^0.0.1-security"
+  },
+  "repository": "https://github.com/linuxzinho/notepadWithElectronJs",
+  "author": "linuxzinho <ismaelhenzel33@gmail.com>",
+  "devDependencies": {
+    "electron": "^10.1.0",
+    "electron-builder": "^22.8.1"
+  }
+}
